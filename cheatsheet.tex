@@ -104,6 +104,11 @@
     Execute Macro x Times            & \texttt{<number>@<letter>} \\
   \end{keys}
 
+  \begin{keys}{Search and Replace}
+    From line 5 to 12               & \texttt{:5,12s/foo/bar/g} \\
+    Current line plus 2             & \texttt{:.,+2s/foo/bar/g} \\
+  \end{keys}
+
   \vfill
   \columnbreak
 
@@ -117,6 +122,8 @@
   \end{keys}
 
   \begin{keys}{Panes}
+    Show Pane Numbers               & \texttt{C-a q} \\
+    Go To Pane                      & \texttt{C-a q \#} \\
     Vertical Split                  & \texttt{C-a \%} \\
     Horizontal Split                & \texttt{C-a \"} \\
     Kill Page                       & \texttt{C-a x} \\
